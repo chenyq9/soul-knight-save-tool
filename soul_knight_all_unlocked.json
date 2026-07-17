@@ -1,1 +1,3888 @@
-{"skinLock":{"Knight":[{"Key":0,"Value":1},{"Key":1,"Value":2000},{"Key":2,"Value":-2},{"Key":3,"Value":5000},{"Key":4,"Value":-3},{"Key":5,"Value":12000},{"Key":6,"Value":0},{"Key":7,"Value":-1},{"Key":8,"Value":0},{"Key":9,"Value":10000},{"Key":10,"Value":8000},{"Key":11,"Value":15000},{"Key":12,"Value":-8},{"Key":13,"Value":8000},{"Key":14,"Value":0},{"Key":15,"Value":0},{"Key":16,"Value":233},{"Key":17,"Value":9999},{"Key":18,"Value":9999},{"Key":19,"Value":-13},{"Key":20,"Value":-5},{"Key":21,"Value":-6},{"Key":22,"Value":0},{"Key":23,"Value":-13},{"Key":24,"Value":12000},{"Key":25,"Value":-6},{"Key":26,"Value":-1},{"Key":27,"Value":10000},{"Key":28,"Value":-13},{"Key":29,"Value":0},{"Key":30,"Value":-19},{"Key":31,"Value":-13},{"Key":32,"Value":0},{"Key":33,"Value":-20},{"Key":34,"Value":-13},{"Key":35,"Value":-6},{"Key":36,"Value":-19}],"Ranger":[{"Key":0,"Value":1},{"Key":1,"Value":2000},{"Key":2,"Value":5000},{"Key":3,"Value":5000},{"Key":4,"Value":0},{"Key":5,"Value":0},{"Key":6,"Value":-5},{"Key":7,"Value":0},{"Key":8,"Value":0},{"Key":9,"Value":8000},{"Key":10,"Value":0},{"Key":11,"Value":-8},{"Key":12,"Value":-5},{"Key":13,"Value":0},{"Key":14,"Value":-1},{"Key":15,"Value":-10},{"Key":16,"Value":0},{"Key":17,"Value":-13},{"Key":18,"Value":-1},{"Key":19,"Value":0},{"Key":20,"Value":-16},{"Key":21,"Value":-13},{"Key":22,"Value":0},{"Key":23,"Value":0},{"Key":24,"Value":0},{"Key":25,"Value":-13},{"Key":26,"Value":-13},{"Key":27,"Value":-6},{"Key":28,"Value":-6},{"Key":29,"Value":10000},{"Key":30,"Value":0},{"Key":31,"Value":-13},{"Key":32,"Value":-6}],"Mage":[{},{"Key":1,"Value":2000},{"Key":2,"Value":5000},{"Key":3,"Value":2000},{"Key":4,"Value":2000},{"Key":5,"Value":0},{"Key":6,"Value":0},{"Key":7,"Value":-5},{"Key":8,"Value":8000},{"Key":9,"Value":0},{"Key":10,"Value":8000},{"Key":11,"Value":-4},{"Key":12,"Value":-8},{"Key":13,"Value":10000},{"Key":14,"Value":0},{"Key":15,"Value":0},{"Key":16,"Value":-13},{"Key":17,"Value":0},{"Key":18,"Value":-6},{"Key":19,"Value":0},{"Key":20,"Value":0},{"Key":21,"Value":-13},{"Key":22,"Value":12000},{"Key":23,"Value":0},{"Key":24,"Value":0},{"Key":25,"Value":-13},{"Key":26,"Value":-6},{"Key":27,"Value":0},{"Key":28,"Value":-6},{"Key":29,"Value":-20},{"Key":30,"Value":12000},{"Key":31,"Value":-13},{"Key":32,"Value":0}],"Assassin":[{"Key":0,"Value":1},{"Key":1,"Value":2000},{"Key":2,"Value":5000},{"Key":3,"Value":0},{"Key":4,"Value":2000},{"Key":5,"Value":5000},{"Key":6,"Value":0},{"Key":7,"Value":0},{"Key":8,"Value":0},{"Key":9,"Value":8000},{"Key":10,"Value":0},{"Key":11,"Value":-8},{"Key":12,"Value":0},{"Key":13,"Value":0},{"Key":14,"Value":0},{"Key":15,"Value":-4},{"Key":16,"Value":-10},{"Key":17,"Value":-13},{"Key":18,"Value":-6},{"Key":19,"Value":0},{"Key":20,"Value":0},{"Key":21,"Value":-15},{"Key":22,"Value":-13},{"Key":23,"Value":-5},{"Key":24,"Value":-13},{"Key":25,"Value":-8},{"Key":26,"Value":0},{"Key":27,"Value":-6},{"Key":28,"Value":-13},{"Key":29,"Value":-6}],"Alchemist":[{"Key":0,"Value":1},{"Key":1,"Value":2000},{"Key":2,"Value":5000},{"Key":3,"Value":0},{"Key":4,"Value":8000},{"Key":5,"Value":0},{"Key":6,"Value":0},{"Key":7,"Value":-1},{"Key":8,"Value":-5},{"Key":9,"Value":8000},{"Key":10,"Value":0},{"Key":11,"Value":12000},{"Key":12,"Value":9999},{"Key":13,"Value":-13},{"Key":14,"Value":-5},{"Key":15,"Value":12000},{"Key":16,"Value":-12},{"Key":17,"Value":-13},{"Key":18,"Value":4000},{"Key":19,"Value":0},{"Key":20,"Value":-13},{"Key":21,"Value":-13},{"Key":22,"Value":12000},{"Key":23,"Value":12000},{"Key":24,"Value":-13},{"Key":25,"Value":12000},{"Key":26,"Value":-6}],"Engineer":[{"Key":0,"Value":1},{"Key":1,"Value":2000},{"Key":2,"Value":5000},{"Key":3,"Value":0},{"Key":4,"Value":2000},{"Key":5,"Value":5000},{"Key":6,"Value":0},{"Key":7,"Value":0},{"Key":8,"Value":-5},{"Key":9,"Value":6000},{"Key":10,"Value":15000},{"Key":11,"Value":0},{"Key":12,"Value":0},{"Key":13,"Value":0},{"Key":14,"Value":0},{"Key":15,"Value":-8},{"Key":16,"Value":-13},{"Key":17,"Value":-10},{"Key":18,"Value":12000},{"Key":19,"Value":0},{"Key":20,"Value":-13},{"Key":21,"Value":-12},{"Key":22,"Value":-13},{"Key":23,"Value":12000},{"Key":24,"Value":-13},{"Key":25,"Value":-8},{"Key":26,"Value":-19},{"Key":27,"Value":0},{"Key":28,"Value":-13},{"Key":29,"Value":12000},{"Key":30,"Value":-6}],"Vampire":[{},{"Key":1,"Value":2000},{"Key":2,"Value":0},"main":[{}]}
+{
+  "skinLock": {
+    "Knight": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 2000
+      },
+      {
+        "Key": 2,
+        "Value": -2
+      },
+      {
+        "Key": 3,
+        "Value": 5000
+      },
+      {
+        "Key": 4,
+        "Value": -3
+      },
+      {
+        "Key": 5,
+        "Value": 12000
+      },
+      {
+        "Key": 6,
+        "Value": 0
+      },
+      {
+        "Key": 7,
+        "Value": -1
+      },
+      {
+        "Key": 8,
+        "Value": 0
+      },
+      {
+        "Key": 9,
+        "Value": 10000
+      },
+      {
+        "Key": 10,
+        "Value": 8000
+      },
+      {
+        "Key": 11,
+        "Value": 15000
+      },
+      {
+        "Key": 12,
+        "Value": -8
+      },
+      {
+        "Key": 13,
+        "Value": 8000
+      },
+      {
+        "Key": 14,
+        "Value": 0
+      },
+      {
+        "Key": 15,
+        "Value": 0
+      },
+      {
+        "Key": 16,
+        "Value": 233
+      },
+      {
+        "Key": 17,
+        "Value": 9999
+      },
+      {
+        "Key": 18,
+        "Value": 9999
+      },
+      {
+        "Key": 19,
+        "Value": -13
+      },
+      {
+        "Key": 20,
+        "Value": -5
+      },
+      {
+        "Key": 21,
+        "Value": -6
+      },
+      {
+        "Key": 22,
+        "Value": 0
+      },
+      {
+        "Key": 23,
+        "Value": -13
+      },
+      {
+        "Key": 24,
+        "Value": 12000
+      },
+      {
+        "Key": 25,
+        "Value": -6
+      },
+      {
+        "Key": 26,
+        "Value": -1
+      },
+      {
+        "Key": 27,
+        "Value": 10000
+      },
+      {
+        "Key": 28,
+        "Value": -13
+      },
+      {
+        "Key": 29,
+        "Value": 0
+      },
+      {
+        "Key": 30,
+        "Value": -19
+      },
+      {
+        "Key": 31,
+        "Value": -13
+      },
+      {
+        "Key": 32,
+        "Value": 0
+      },
+      {
+        "Key": 33,
+        "Value": -20
+      },
+      {
+        "Key": 34,
+        "Value": -13
+      },
+      {
+        "Key": 35,
+        "Value": -6
+      },
+      {
+        "Key": 36,
+        "Value": -19
+      }
+    ],
+    "Ranger": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 2000
+      },
+      {
+        "Key": 2,
+        "Value": 5000
+      },
+      {
+        "Key": 3,
+        "Value": 5000
+      },
+      {
+        "Key": 4,
+        "Value": 0
+      },
+      {
+        "Key": 5,
+        "Value": 0
+      },
+      {
+        "Key": 6,
+        "Value": -5
+      },
+      {
+        "Key": 7,
+        "Value": 0
+      },
+      {
+        "Key": 8,
+        "Value": 0
+      },
+      {
+        "Key": 9,
+        "Value": 8000
+      },
+      {
+        "Key": 10,
+        "Value": 0
+      },
+      {
+        "Key": 11,
+        "Value": -8
+      },
+      {
+        "Key": 12,
+        "Value": -5
+      },
+      {
+        "Key": 13,
+        "Value": 0
+      },
+      {
+        "Key": 14,
+        "Value": -1
+      },
+      {
+        "Key": 15,
+        "Value": -10
+      },
+      {
+        "Key": 16,
+        "Value": 0
+      },
+      {
+        "Key": 17,
+        "Value": -13
+      },
+      {
+        "Key": 18,
+        "Value": -1
+      },
+      {
+        "Key": 19,
+        "Value": 0
+      },
+      {
+        "Key": 20,
+        "Value": -16
+      },
+      {
+        "Key": 21,
+        "Value": -13
+      },
+      {
+        "Key": 22,
+        "Value": 0
+      },
+      {
+        "Key": 23,
+        "Value": 0
+      },
+      {
+        "Key": 24,
+        "Value": 0
+      },
+      {
+        "Key": 25,
+        "Value": -13
+      },
+      {
+        "Key": 26,
+        "Value": -13
+      },
+      {
+        "Key": 27,
+        "Value": -6
+      },
+      {
+        "Key": 28,
+        "Value": -6
+      },
+      {
+        "Key": 29,
+        "Value": 10000
+      },
+      {
+        "Key": 30,
+        "Value": 0
+      },
+      {
+        "Key": 31,
+        "Value": -13
+      },
+      {
+        "Key": 32,
+        "Value": -6
+      }
+    ],
+    "Mage": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 2000
+      },
+      {
+        "Key": 2,
+        "Value": 5000
+      },
+      {
+        "Key": 3,
+        "Value": 2000
+      },
+      {
+        "Key": 4,
+        "Value": 2000
+      },
+      {
+        "Key": 5,
+        "Value": 0
+      },
+      {
+        "Key": 6,
+        "Value": 0
+      },
+      {
+        "Key": 7,
+        "Value": -5
+      },
+      {
+        "Key": 8,
+        "Value": 8000
+      },
+      {
+        "Key": 9,
+        "Value": 0
+      },
+      {
+        "Key": 10,
+        "Value": 8000
+      },
+      {
+        "Key": 11,
+        "Value": -4
+      },
+      {
+        "Key": 12,
+        "Value": -8
+      },
+      {
+        "Key": 13,
+        "Value": 10000
+      },
+      {
+        "Key": 14,
+        "Value": 0
+      },
+      {
+        "Key": 15,
+        "Value": 0
+      },
+      {
+        "Key": 16,
+        "Value": -13
+      },
+      {
+        "Key": 17,
+        "Value": 0
+      },
+      {
+        "Key": 18,
+        "Value": -6
+      },
+      {
+        "Key": 19,
+        "Value": 0
+      },
+      {
+        "Key": 20,
+        "Value": 0
+      },
+      {
+        "Key": 21,
+        "Value": -13
+      },
+      {
+        "Key": 22,
+        "Value": 12000
+      },
+      {
+        "Key": 23,
+        "Value": 0
+      },
+      {
+        "Key": 24,
+        "Value": 0
+      },
+      {
+        "Key": 25,
+        "Value": -13
+      },
+      {
+        "Key": 26,
+        "Value": -6
+      },
+      {
+        "Key": 27,
+        "Value": 0
+      },
+      {
+        "Key": 28,
+        "Value": -6
+      },
+      {
+        "Key": 29,
+        "Value": -20
+      },
+      {
+        "Key": 30,
+        "Value": 12000
+      },
+      {
+        "Key": 31,
+        "Value": -13
+      },
+      {
+        "Key": 32,
+        "Value": 0
+      }
+    ],
+    "Assassin": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 2000
+      },
+      {
+        "Key": 2,
+        "Value": 5000
+      },
+      {
+        "Key": 3,
+        "Value": 0
+      },
+      {
+        "Key": 4,
+        "Value": 2000
+      },
+      {
+        "Key": 5,
+        "Value": 5000
+      },
+      {
+        "Key": 6,
+        "Value": 0
+      },
+      {
+        "Key": 7,
+        "Value": 0
+      },
+      {
+        "Key": 8,
+        "Value": 0
+      },
+      {
+        "Key": 9,
+        "Value": 8000
+      },
+      {
+        "Key": 10,
+        "Value": 0
+      },
+      {
+        "Key": 11,
+        "Value": -8
+      },
+      {
+        "Key": 12,
+        "Value": 0
+      },
+      {
+        "Key": 13,
+        "Value": 0
+      },
+      {
+        "Key": 14,
+        "Value": 0
+      },
+      {
+        "Key": 15,
+        "Value": -4
+      },
+      {
+        "Key": 16,
+        "Value": -10
+      },
+      {
+        "Key": 17,
+        "Value": -13
+      },
+      {
+        "Key": 18,
+        "Value": -6
+      },
+      {
+        "Key": 19,
+        "Value": 0
+      },
+      {
+        "Key": 20,
+        "Value": 0
+      },
+      {
+        "Key": 21,
+        "Value": -15
+      },
+      {
+        "Key": 22,
+        "Value": -13
+      },
+      {
+        "Key": 23,
+        "Value": -5
+      },
+      {
+        "Key": 24,
+        "Value": -13
+      },
+      {
+        "Key": 25,
+        "Value": -8
+      },
+      {
+        "Key": 26,
+        "Value": 0
+      },
+      {
+        "Key": 27,
+        "Value": -6
+      },
+      {
+        "Key": 28,
+        "Value": -13
+      },
+      {
+        "Key": 29,
+        "Value": -6
+      }
+    ],
+    "Alchemist": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 2000
+      },
+      {
+        "Key": 2,
+        "Value": 5000
+      },
+      {
+        "Key": 3,
+        "Value": 0
+      },
+      {
+        "Key": 4,
+        "Value": 8000
+      },
+      {
+        "Key": 5,
+        "Value": 0
+      },
+      {
+        "Key": 6,
+        "Value": 0
+      },
+      {
+        "Key": 7,
+        "Value": -1
+      },
+      {
+        "Key": 8,
+        "Value": -5
+      },
+      {
+        "Key": 9,
+        "Value": 8000
+      },
+      {
+        "Key": 10,
+        "Value": 0
+      },
+      {
+        "Key": 11,
+        "Value": 12000
+      },
+      {
+        "Key": 12,
+        "Value": 9999
+      },
+      {
+        "Key": 13,
+        "Value": -13
+      },
+      {
+        "Key": 14,
+        "Value": -5
+      },
+      {
+        "Key": 15,
+        "Value": 12000
+      },
+      {
+        "Key": 16,
+        "Value": -12
+      },
+      {
+        "Key": 17,
+        "Value": -13
+      },
+      {
+        "Key": 18,
+        "Value": 4000
+      },
+      {
+        "Key": 19,
+        "Value": 0
+      },
+      {
+        "Key": 20,
+        "Value": -13
+      },
+      {
+        "Key": 21,
+        "Value": -13
+      },
+      {
+        "Key": 22,
+        "Value": 12000
+      },
+      {
+        "Key": 23,
+        "Value": 12000
+      },
+      {
+        "Key": 24,
+        "Value": -13
+      },
+      {
+        "Key": 25,
+        "Value": 12000
+      },
+      {
+        "Key": 26,
+        "Value": -6
+      }
+    ],
+    "Engineer": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 2000
+      },
+      {
+        "Key": 2,
+        "Value": 5000
+      },
+      {
+        "Key": 3,
+        "Value": 0
+      },
+      {
+        "Key": 4,
+        "Value": 2000
+      },
+      {
+        "Key": 5,
+        "Value": 5000
+      },
+      {
+        "Key": 6,
+        "Value": 0
+      },
+      {
+        "Key": 7,
+        "Value": 0
+      },
+      {
+        "Key": 8,
+        "Value": -5
+      },
+      {
+        "Key": 9,
+        "Value": 6000
+      },
+      {
+        "Key": 10,
+        "Value": 15000
+      },
+      {
+        "Key": 11,
+        "Value": 0
+      },
+      {
+        "Key": 12,
+        "Value": 0
+      },
+      {
+        "Key": 13,
+        "Value": 0
+      },
+      {
+        "Key": 14,
+        "Value": 0
+      },
+      {
+        "Key": 15,
+        "Value": -8
+      },
+      {
+        "Key": 16,
+        "Value": -13
+      },
+      {
+        "Key": 17,
+        "Value": -10
+      },
+      {
+        "Key": 18,
+        "Value": 12000
+      },
+      {
+        "Key": 19,
+        "Value": 0
+      },
+      {
+        "Key": 20,
+        "Value": -13
+      },
+      {
+        "Key": 21,
+        "Value": -12
+      },
+      {
+        "Key": 22,
+        "Value": -13
+      },
+      {
+        "Key": 23,
+        "Value": 12000
+      },
+      {
+        "Key": 24,
+        "Value": -13
+      },
+      {
+        "Key": 25,
+        "Value": -8
+      },
+      {
+        "Key": 26,
+        "Value": -19
+      },
+      {
+        "Key": 27,
+        "Value": 0
+      },
+      {
+        "Key": 28,
+        "Value": -13
+      },
+      {
+        "Key": 29,
+        "Value": 12000
+      },
+      {
+        "Key": 30,
+        "Value": -6
+      }
+    ],
+    "Vampire": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 2000
+      },
+      {
+        "Key": 2,
+        "Value": 0
+      },
+      {
+        "Key": 3,
+        "Value": 2000
+      },
+      {
+        "Key": 4,
+        "Value": 2000
+      },
+      {
+        "Key": 5,
+        "Value": 5000
+      },
+      {
+        "Key": 6,
+        "Value": 0
+      },
+      {
+        "Key": 7,
+        "Value": -5
+      },
+      {
+        "Key": 8,
+        "Value": 0
+      },
+      {
+        "Key": 9,
+        "Value": 0
+      },
+      {
+        "Key": 10,
+        "Value": 0
+      },
+      {
+        "Key": 11,
+        "Value": 15000
+      },
+      {
+        "Key": 12,
+        "Value": -10
+      },
+      {
+        "Key": 13,
+        "Value": 0
+      },
+      {
+        "Key": 14,
+        "Value": -13
+      },
+      {
+        "Key": 15,
+        "Value": -10
+      },
+      {
+        "Key": 16,
+        "Value": 0
+      },
+      {
+        "Key": 17,
+        "Value": -13
+      },
+      {
+        "Key": 18,
+        "Value": -6
+      },
+      {
+        "Key": 19,
+        "Value": 18000
+      },
+      {
+        "Key": 20,
+        "Value": -13
+      },
+      {
+        "Key": 21,
+        "Value": 0
+      },
+      {
+        "Key": 22,
+        "Value": -13
+      },
+      {
+        "Key": 23,
+        "Value": -13
+      },
+      {
+        "Key": 24,
+        "Value": -6
+      },
+      {
+        "Key": 25,
+        "Value": -13
+      }
+    ],
+    "Paladin": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 2000
+      },
+      {
+        "Key": 2,
+        "Value": 0
+      },
+      {
+        "Key": 3,
+        "Value": 5000
+      },
+      {
+        "Key": 4,
+        "Value": 0
+      },
+      {
+        "Key": 5,
+        "Value": -3
+      },
+      {
+        "Key": 6,
+        "Value": -4
+      },
+      {
+        "Key": 7,
+        "Value": -5
+      },
+      {
+        "Key": 8,
+        "Value": -4
+      },
+      {
+        "Key": 9,
+        "Value": 0
+      },
+      {
+        "Key": 10,
+        "Value": 0
+      },
+      {
+        "Key": 11,
+        "Value": -8
+      },
+      {
+        "Key": 12,
+        "Value": -5
+      },
+      {
+        "Key": 13,
+        "Value": 0
+      },
+      {
+        "Key": 14,
+        "Value": 0
+      },
+      {
+        "Key": 15,
+        "Value": 12000
+      },
+      {
+        "Key": 16,
+        "Value": 9999
+      },
+      {
+        "Key": 17,
+        "Value": -13
+      },
+      {
+        "Key": 18,
+        "Value": -6
+      },
+      {
+        "Key": 19,
+        "Value": 0
+      },
+      {
+        "Key": 20,
+        "Value": -13
+      },
+      {
+        "Key": 21,
+        "Value": 12000
+      },
+      {
+        "Key": 22,
+        "Value": -13
+      },
+      {
+        "Key": 23,
+        "Value": -13
+      },
+      {
+        "Key": 24,
+        "Value": 18000
+      },
+      {
+        "Key": 25,
+        "Value": -13
+      },
+      {
+        "Key": 26,
+        "Value": 0
+      },
+      {
+        "Key": 27,
+        "Value": -6
+      },
+      {
+        "Key": 28,
+        "Value": -13
+      },
+      {
+        "Key": 29,
+        "Value": 0
+      }
+    ],
+    "Elves": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 2000
+      },
+      {
+        "Key": 2,
+        "Value": 0
+      },
+      {
+        "Key": 3,
+        "Value": 0
+      },
+      {
+        "Key": 4,
+        "Value": -3
+      },
+      {
+        "Key": 5,
+        "Value": 0
+      },
+      {
+        "Key": 6,
+        "Value": -5
+      },
+      {
+        "Key": 7,
+        "Value": 0
+      },
+      {
+        "Key": 8,
+        "Value": 0
+      },
+      {
+        "Key": 9,
+        "Value": -5
+      },
+      {
+        "Key": 10,
+        "Value": 0
+      },
+      {
+        "Key": 11,
+        "Value": -4
+      },
+      {
+        "Key": 12,
+        "Value": 0
+      },
+      {
+        "Key": 13,
+        "Value": -10
+      },
+      {
+        "Key": 14,
+        "Value": -13
+      },
+      {
+        "Key": 15,
+        "Value": 0
+      },
+      {
+        "Key": 16,
+        "Value": -13
+      },
+      {
+        "Key": 17,
+        "Value": -6
+      },
+      {
+        "Key": 18,
+        "Value": 0
+      },
+      {
+        "Key": 19,
+        "Value": 0
+      },
+      {
+        "Key": 20,
+        "Value": -13
+      },
+      {
+        "Key": 21,
+        "Value": 0
+      },
+      {
+        "Key": 22,
+        "Value": -6
+      },
+      {
+        "Key": 23,
+        "Value": 0
+      },
+      {
+        "Key": 24,
+        "Value": 12000
+      },
+      {
+        "Key": 25,
+        "Value": -6
+      },
+      {
+        "Key": 26,
+        "Value": -13
+      },
+      {
+        "Key": 27,
+        "Value": -20
+      }
+    ],
+    "Werewolf": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 2000
+      },
+      {
+        "Key": 2,
+        "Value": 0
+      },
+      {
+        "Key": 3,
+        "Value": 2000
+      },
+      {
+        "Key": 4,
+        "Value": 2000
+      },
+      {
+        "Key": 5,
+        "Value": 0
+      },
+      {
+        "Key": 6,
+        "Value": 2000
+      },
+      {
+        "Key": 7,
+        "Value": 0
+      },
+      {
+        "Key": 8,
+        "Value": 0
+      },
+      {
+        "Key": 9,
+        "Value": -5
+      },
+      {
+        "Key": 10,
+        "Value": 12000
+      },
+      {
+        "Key": 11,
+        "Value": -3
+      },
+      {
+        "Key": 12,
+        "Value": 8000
+      },
+      {
+        "Key": 13,
+        "Value": 0
+      },
+      {
+        "Key": 14,
+        "Value": 0
+      },
+      {
+        "Key": 15,
+        "Value": 15000
+      },
+      {
+        "Key": 16,
+        "Value": 0
+      },
+      {
+        "Key": 17,
+        "Value": 0
+      },
+      {
+        "Key": 18,
+        "Value": -13
+      },
+      {
+        "Key": 19,
+        "Value": -10
+      },
+      {
+        "Key": 20,
+        "Value": -10
+      },
+      {
+        "Key": 21,
+        "Value": -13
+      },
+      {
+        "Key": 22,
+        "Value": -19
+      },
+      {
+        "Key": 23,
+        "Value": -8
+      },
+      {
+        "Key": 24,
+        "Value": 12000
+      },
+      {
+        "Key": 25,
+        "Value": -13
+      },
+      {
+        "Key": 26,
+        "Value": -6
+      },
+      {
+        "Key": 27,
+        "Value": 10000
+      },
+      {
+        "Key": 28,
+        "Value": -10
+      },
+      {
+        "Key": 29,
+        "Value": 11999
+      },
+      {
+        "Key": 30,
+        "Value": -6
+      },
+      {
+        "Key": 31,
+        "Value": -13
+      },
+      {
+        "Key": 32,
+        "Value": 0
+      }
+    ],
+    "Priest": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 5000
+      },
+      {
+        "Key": 2,
+        "Value": 2000
+      },
+      {
+        "Key": 3,
+        "Value": 0
+      },
+      {
+        "Key": 4,
+        "Value": 18000
+      },
+      {
+        "Key": 5,
+        "Value": -5
+      },
+      {
+        "Key": 6,
+        "Value": 8000
+      },
+      {
+        "Key": 7,
+        "Value": 0
+      },
+      {
+        "Key": 8,
+        "Value": 6000
+      },
+      {
+        "Key": 9,
+        "Value": 8000
+      },
+      {
+        "Key": 10,
+        "Value": 0
+      },
+      {
+        "Key": 11,
+        "Value": 10000
+      },
+      {
+        "Key": 12,
+        "Value": 15000
+      },
+      {
+        "Key": 13,
+        "Value": -6
+      },
+      {
+        "Key": 14,
+        "Value": 0
+      },
+      {
+        "Key": 15,
+        "Value": -12
+      },
+      {
+        "Key": 16,
+        "Value": -13
+      },
+      {
+        "Key": 17,
+        "Value": 0
+      },
+      {
+        "Key": 18,
+        "Value": -13
+      },
+      {
+        "Key": 19,
+        "Value": 0
+      },
+      {
+        "Key": 20,
+        "Value": 0
+      },
+      {
+        "Key": 21,
+        "Value": -13
+      },
+      {
+        "Key": 22,
+        "Value": -6
+      },
+      {
+        "Key": 23,
+        "Value": -13
+      },
+      {
+        "Key": 24,
+        "Value": 0
+      },
+      {
+        "Key": 25,
+        "Value": 0
+      },
+      {
+        "Key": 26,
+        "Value": 12000
+      },
+      {
+        "Key": 27,
+        "Value": -6
+      },
+      {
+        "Key": 28,
+        "Value": -13
+      }
+    ],
+    "Druid": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 5000
+      },
+      {
+        "Key": 2,
+        "Value": 0
+      },
+      {
+        "Key": 3,
+        "Value": 5000
+      },
+      {
+        "Key": 4,
+        "Value": 0
+      },
+      {
+        "Key": 5,
+        "Value": 0
+      },
+      {
+        "Key": 6,
+        "Value": 0
+      },
+      {
+        "Key": 7,
+        "Value": 0
+      },
+      {
+        "Key": 8,
+        "Value": 15000
+      },
+      {
+        "Key": 9,
+        "Value": 15000
+      },
+      {
+        "Key": 10,
+        "Value": 0
+      },
+      {
+        "Key": 11,
+        "Value": 0
+      },
+      {
+        "Key": 12,
+        "Value": 0
+      },
+      {
+        "Key": 13,
+        "Value": 0
+      },
+      {
+        "Key": 14,
+        "Value": -10
+      },
+      {
+        "Key": 15,
+        "Value": -13
+      },
+      {
+        "Key": 16,
+        "Value": 12000
+      },
+      {
+        "Key": 17,
+        "Value": 0
+      },
+      {
+        "Key": 18,
+        "Value": -13
+      },
+      {
+        "Key": 19,
+        "Value": -6
+      },
+      {
+        "Key": 20,
+        "Value": 0
+      },
+      {
+        "Key": 21,
+        "Value": -13
+      },
+      {
+        "Key": 22,
+        "Value": 0
+      },
+      {
+        "Key": 23,
+        "Value": -6
+      },
+      {
+        "Key": 24,
+        "Value": 16000
+      },
+      {
+        "Key": 25,
+        "Value": -6
+      },
+      {
+        "Key": 26,
+        "Value": 0
+      },
+      {
+        "Key": 27,
+        "Value": 12000
+      },
+      {
+        "Key": 28,
+        "Value": -13
+      },
+      {
+        "Key": 29,
+        "Value": 12000
+      }
+    ],
+    "Robot": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 5000
+      },
+      {
+        "Key": 2,
+        "Value": -1
+      },
+      {
+        "Key": 3,
+        "Value": -4
+      },
+      {
+        "Key": 4,
+        "Value": 0
+      },
+      {
+        "Key": 5,
+        "Value": -1
+      },
+      {
+        "Key": 6,
+        "Value": -5
+      },
+      {
+        "Key": 7,
+        "Value": 6000
+      },
+      {
+        "Key": 8,
+        "Value": -6
+      },
+      {
+        "Key": 9,
+        "Value": 15000
+      },
+      {
+        "Key": 10,
+        "Value": 0
+      },
+      {
+        "Key": 11,
+        "Value": 8000
+      },
+      {
+        "Key": 12,
+        "Value": -5
+      },
+      {
+        "Key": 13,
+        "Value": -10
+      },
+      {
+        "Key": 14,
+        "Value": 12000
+      },
+      {
+        "Key": 15,
+        "Value": -13
+      },
+      {
+        "Key": 16,
+        "Value": 12000
+      },
+      {
+        "Key": 17,
+        "Value": -6
+      },
+      {
+        "Key": 18,
+        "Value": -13
+      },
+      {
+        "Key": 19,
+        "Value": 12000
+      },
+      {
+        "Key": 20,
+        "Value": -13
+      },
+      {
+        "Key": 21,
+        "Value": 12000
+      },
+      {
+        "Key": 22,
+        "Value": -13
+      },
+      {
+        "Key": 23,
+        "Value": 12000
+      },
+      {
+        "Key": 24,
+        "Value": -13
+      },
+      {
+        "Key": 25,
+        "Value": -6
+      }
+    ],
+    "Viking": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 0
+      },
+      {
+        "Key": 2,
+        "Value": -4
+      },
+      {
+        "Key": 3,
+        "Value": 0
+      },
+      {
+        "Key": 4,
+        "Value": -5
+      },
+      {
+        "Key": 5,
+        "Value": 0
+      },
+      {
+        "Key": 6,
+        "Value": -5
+      },
+      {
+        "Key": 7,
+        "Value": 12000
+      },
+      {
+        "Key": 8,
+        "Value": -6
+      },
+      {
+        "Key": 9,
+        "Value": -1
+      },
+      {
+        "Key": 10,
+        "Value": 0
+      },
+      {
+        "Key": 11,
+        "Value": 0
+      },
+      {
+        "Key": 12,
+        "Value": 10000
+      },
+      {
+        "Key": 13,
+        "Value": 0
+      },
+      {
+        "Key": 14,
+        "Value": 15000
+      },
+      {
+        "Key": 15,
+        "Value": -6
+      },
+      {
+        "Key": 16,
+        "Value": 0
+      },
+      {
+        "Key": 17,
+        "Value": -13
+      },
+      {
+        "Key": 18,
+        "Value": 0
+      },
+      {
+        "Key": 19,
+        "Value": -5
+      },
+      {
+        "Key": 20,
+        "Value": 0
+      },
+      {
+        "Key": 21,
+        "Value": -13
+      },
+      {
+        "Key": 22,
+        "Value": 0
+      },
+      {
+        "Key": 23,
+        "Value": 15000
+      },
+      {
+        "Key": 24,
+        "Value": -13
+      },
+      {
+        "Key": 25,
+        "Value": -6
+      },
+      {
+        "Key": 26,
+        "Value": 0
+      },
+      {
+        "Key": 27,
+        "Value": 12000
+      },
+      {
+        "Key": 28,
+        "Value": -6
+      },
+      {
+        "Key": 29,
+        "Value": -13
+      },
+      {
+        "Key": 30,
+        "Value": -20
+      }
+    ],
+    "Necromancer": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": -5
+      },
+      {
+        "Key": 2,
+        "Value": -7
+      },
+      {
+        "Key": 3,
+        "Value": 10000
+      },
+      {
+        "Key": 4,
+        "Value": 0
+      },
+      {
+        "Key": 5,
+        "Value": 0
+      },
+      {
+        "Key": 6,
+        "Value": -5
+      },
+      {
+        "Key": 7,
+        "Value": 15000
+      },
+      {
+        "Key": 8,
+        "Value": -6
+      },
+      {
+        "Key": 9,
+        "Value": 0
+      },
+      {
+        "Key": 10,
+        "Value": -10
+      },
+      {
+        "Key": 11,
+        "Value": -13
+      },
+      {
+        "Key": 12,
+        "Value": 0
+      },
+      {
+        "Key": 13,
+        "Value": -8
+      },
+      {
+        "Key": 14,
+        "Value": 0
+      },
+      {
+        "Key": 15,
+        "Value": -13
+      },
+      {
+        "Key": 16,
+        "Value": -6
+      },
+      {
+        "Key": 17,
+        "Value": 0
+      },
+      {
+        "Key": 18,
+        "Value": -13
+      },
+      {
+        "Key": 19,
+        "Value": -6
+      },
+      {
+        "Key": 20,
+        "Value": 0
+      },
+      {
+        "Key": 21,
+        "Value": 12000
+      },
+      {
+        "Key": 22,
+        "Value": -6
+      },
+      {
+        "Key": 23,
+        "Value": 0
+      },
+      {
+        "Key": 24,
+        "Value": -13
+      },
+      {
+        "Key": 25,
+        "Value": -20
+      }
+    ],
+    "Officer": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 8000
+      },
+      {
+        "Key": 2,
+        "Value": 0
+      },
+      {
+        "Key": 3,
+        "Value": 12000
+      },
+      {
+        "Key": 4,
+        "Value": -4
+      },
+      {
+        "Key": 5,
+        "Value": -5
+      },
+      {
+        "Key": 6,
+        "Value": 0
+      },
+      {
+        "Key": 7,
+        "Value": 10000
+      },
+      {
+        "Key": 8,
+        "Value": 15000
+      },
+      {
+        "Key": 9,
+        "Value": 12000
+      },
+      {
+        "Key": 10,
+        "Value": -13
+      },
+      {
+        "Key": 11,
+        "Value": 9999
+      },
+      {
+        "Key": 12,
+        "Value": -6
+      },
+      {
+        "Key": 13,
+        "Value": -10
+      },
+      {
+        "Key": 14,
+        "Value": -10
+      },
+      {
+        "Key": 15,
+        "Value": -13
+      },
+      {
+        "Key": 16,
+        "Value": -10
+      },
+      {
+        "Key": 17,
+        "Value": 0
+      },
+      {
+        "Key": 18,
+        "Value": -13
+      },
+      {
+        "Key": 19,
+        "Value": -6
+      },
+      {
+        "Key": 20,
+        "Value": 0
+      },
+      {
+        "Key": 21,
+        "Value": 12000
+      },
+      {
+        "Key": 22,
+        "Value": -13
+      },
+      {
+        "Key": 23,
+        "Value": -6
+      },
+      {
+        "Key": 24,
+        "Value": 0
+      }
+    ],
+    "Taoist": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": -6
+      },
+      {
+        "Key": 2,
+        "Value": 8000
+      },
+      {
+        "Key": 3,
+        "Value": 0
+      },
+      {
+        "Key": 4,
+        "Value": 0
+      },
+      {
+        "Key": 5,
+        "Value": -5
+      },
+      {
+        "Key": 6,
+        "Value": -5
+      },
+      {
+        "Key": 7,
+        "Value": 0
+      },
+      {
+        "Key": 8,
+        "Value": 10000
+      },
+      {
+        "Key": 9,
+        "Value": 0
+      },
+      {
+        "Key": 10,
+        "Value": 0
+      },
+      {
+        "Key": 11,
+        "Value": 0
+      },
+      {
+        "Key": 12,
+        "Value": -13
+      },
+      {
+        "Key": 13,
+        "Value": -10
+      },
+      {
+        "Key": 14,
+        "Value": -8
+      },
+      {
+        "Key": 15,
+        "Value": -13
+      },
+      {
+        "Key": 16,
+        "Value": 0
+      },
+      {
+        "Key": 17,
+        "Value": -4
+      },
+      {
+        "Key": 18,
+        "Value": 10000
+      },
+      {
+        "Key": 19,
+        "Value": -13
+      },
+      {
+        "Key": 20,
+        "Value": 0
+      },
+      {
+        "Key": 21,
+        "Value": -6
+      },
+      {
+        "Key": 22,
+        "Value": 16000
+      },
+      {
+        "Key": 23,
+        "Value": -13
+      },
+      {
+        "Key": 24,
+        "Value": -6
+      },
+      {
+        "Key": 25,
+        "Value": 12000
+      }
+    ],
+    "Transcendent": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 0
+      },
+      {
+        "Key": 2,
+        "Value": -13
+      },
+      {
+        "Key": 3,
+        "Value": -6
+      },
+      {
+        "Key": 4,
+        "Value": -13
+      }
+    ],
+    "Envoy": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 0
+      },
+      {
+        "Key": 2,
+        "Value": -13
+      },
+      {
+        "Key": 3,
+        "Value": -13
+      }
+    ],
+    "Beheaded": [
+      {
+        "Key": 0,
+        "Value": 1
+      }
+    ],
+    "Ninja": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 0
+      },
+      {
+        "Key": 2,
+        "Value": -13
+      },
+      {
+        "Key": 3,
+        "Value": -6
+      },
+      {
+        "Key": 4,
+        "Value": 0
+      },
+      {
+        "Key": 5,
+        "Value": -13
+      }
+    ],
+    "SpecialForces": [
+      {
+        "Key": 0,
+        "Value": 1
+      }
+    ],
+    "Airbender": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 0
+      },
+      {
+        "Key": 2,
+        "Value": -10
+      },
+      {
+        "Key": 3,
+        "Value": 0
+      },
+      {
+        "Key": 4,
+        "Value": -13
+      },
+      {
+        "Key": 5,
+        "Value": -10
+      },
+      {
+        "Key": 6,
+        "Value": -13
+      },
+      {
+        "Key": 7,
+        "Value": 12000
+      },
+      {
+        "Key": 8,
+        "Value": 16000
+      },
+      {
+        "Key": 9,
+        "Value": -13
+      },
+      {
+        "Key": 10,
+        "Value": 15000
+      },
+      {
+        "Key": 11,
+        "Value": 0
+      },
+      {
+        "Key": 12,
+        "Value": -6
+      },
+      {
+        "Key": 13,
+        "Value": 12000
+      },
+      {
+        "Key": 14,
+        "Value": -13
+      },
+      {
+        "Key": 15,
+        "Value": -6
+      },
+      {
+        "Key": 16,
+        "Value": -6
+      }
+    ],
+    "Warlock": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 0
+      },
+      {
+        "Key": 2,
+        "Value": 12000
+      },
+      {
+        "Key": 3,
+        "Value": 1
+      },
+      {
+        "Key": 4,
+        "Value": -13
+      },
+      {
+        "Key": 5,
+        "Value": -10
+      },
+      {
+        "Key": 6,
+        "Value": 0
+      },
+      {
+        "Key": 7,
+        "Value": -13
+      },
+      {
+        "Key": 8,
+        "Value": 0
+      },
+      {
+        "Key": 9,
+        "Value": 0
+      },
+      {
+        "Key": 10,
+        "Value": -13
+      },
+      {
+        "Key": 11,
+        "Value": -6
+      },
+      {
+        "Key": 12,
+        "Value": 15000
+      },
+      {
+        "Key": 13,
+        "Value": 0
+      },
+      {
+        "Key": 14,
+        "Value": -6
+      },
+      {
+        "Key": 15,
+        "Value": -13
+      },
+      {
+        "Key": 16,
+        "Value": -6
+      }
+    ],
+    "Miner": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 0
+      },
+      {
+        "Key": 2,
+        "Value": -13
+      },
+      {
+        "Key": 3,
+        "Value": -1
+      },
+      {
+        "Key": 4,
+        "Value": -10
+      },
+      {
+        "Key": 5,
+        "Value": -1
+      },
+      {
+        "Key": 6,
+        "Value": 0
+      },
+      {
+        "Key": 7,
+        "Value": -13
+      },
+      {
+        "Key": 8,
+        "Value": 0
+      },
+      {
+        "Key": 9,
+        "Value": -10
+      },
+      {
+        "Key": 10,
+        "Value": 15000
+      },
+      {
+        "Key": 11,
+        "Value": 18000
+      },
+      {
+        "Key": 12,
+        "Value": -13
+      },
+      {
+        "Key": 13,
+        "Value": -6
+      },
+      {
+        "Key": 14,
+        "Value": -6
+      },
+      {
+        "Key": 15,
+        "Value": 0
+      },
+      {
+        "Key": 16,
+        "Value": 12000
+      },
+      {
+        "Key": 17,
+        "Value": -13
+      },
+      {
+        "Key": 18,
+        "Value": -6
+      }
+    ],
+    "TrapMaster": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 9999
+      },
+      {
+        "Key": 2,
+        "Value": -13
+      },
+      {
+        "Key": 3,
+        "Value": -10
+      },
+      {
+        "Key": 4,
+        "Value": -5
+      },
+      {
+        "Key": 5,
+        "Value": -13
+      },
+      {
+        "Key": 6,
+        "Value": 0
+      },
+      {
+        "Key": 7,
+        "Value": 18000
+      },
+      {
+        "Key": 8,
+        "Value": -13
+      },
+      {
+        "Key": 9,
+        "Value": 15000
+      },
+      {
+        "Key": 10,
+        "Value": -13
+      },
+      {
+        "Key": 11,
+        "Value": 16000
+      },
+      {
+        "Key": 12,
+        "Value": -6
+      },
+      {
+        "Key": 13,
+        "Value": -13
+      }
+    ],
+    "CostumePrince": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 0
+      },
+      {
+        "Key": 2,
+        "Value": 9999
+      },
+      {
+        "Key": 3,
+        "Value": 12000
+      },
+      {
+        "Key": 4,
+        "Value": -13
+      },
+      {
+        "Key": 5,
+        "Value": -13
+      },
+      {
+        "Key": 6,
+        "Value": 0
+      },
+      {
+        "Key": 7,
+        "Value": -5
+      },
+      {
+        "Key": 8,
+        "Value": -10
+      },
+      {
+        "Key": 9,
+        "Value": -13
+      },
+      {
+        "Key": 10,
+        "Value": -6
+      },
+      {
+        "Key": 11,
+        "Value": 12000
+      },
+      {
+        "Key": 12,
+        "Value": -6
+      },
+      {
+        "Key": 13,
+        "Value": 0
+      },
+      {
+        "Key": 14,
+        "Value": -13
+      }
+    ],
+    "Doctor": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 0
+      },
+      {
+        "Key": 2,
+        "Value": -13
+      },
+      {
+        "Key": 3,
+        "Value": -13
+      },
+      {
+        "Key": 4,
+        "Value": 0
+      },
+      {
+        "Key": 5,
+        "Value": 16000
+      },
+      {
+        "Key": 6,
+        "Value": -6
+      },
+      {
+        "Key": 7,
+        "Value": -13
+      },
+      {
+        "Key": 8,
+        "Value": 15000
+      },
+      {
+        "Key": 9,
+        "Value": -6
+      },
+      {
+        "Key": 10,
+        "Value": 0
+      },
+      {
+        "Key": 11,
+        "Value": -13
+      }
+    ],
+    "SwordMaster": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 0
+      },
+      {
+        "Key": 2,
+        "Value": -13
+      },
+      {
+        "Key": 3,
+        "Value": -13
+      },
+      {
+        "Key": 4,
+        "Value": -6
+      },
+      {
+        "Key": 5,
+        "Value": 0
+      },
+      {
+        "Key": 6,
+        "Value": -13
+      },
+      {
+        "Key": 7,
+        "Value": 0
+      },
+      {
+        "Key": 8,
+        "Value": -6
+      },
+      {
+        "Key": 9,
+        "Value": 0
+      },
+      {
+        "Key": 10,
+        "Value": -6
+      },
+      {
+        "Key": 11,
+        "Value": -6
+      },
+      {
+        "Key": 12,
+        "Value": -13
+      },
+      {
+        "Key": 13,
+        "Value": 12000
+      }
+    ],
+    "Lancer": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 0
+      },
+      {
+        "Key": 2,
+        "Value": -13
+      },
+      {
+        "Key": 3,
+        "Value": -13
+      },
+      {
+        "Key": 4,
+        "Value": -5
+      },
+      {
+        "Key": 5,
+        "Value": 0
+      },
+      {
+        "Key": 6,
+        "Value": -6
+      },
+      {
+        "Key": 7,
+        "Value": -13
+      },
+      {
+        "Key": 8,
+        "Value": 9999
+      },
+      {
+        "Key": 9,
+        "Value": -6
+      },
+      {
+        "Key": 10,
+        "Value": 0
+      },
+      {
+        "Key": 11,
+        "Value": -6
+      },
+      {
+        "Key": 12,
+        "Value": -6
+      },
+      {
+        "Key": 13,
+        "Value": -13
+      }
+    ],
+    "Warliege": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 12000
+      },
+      {
+        "Key": 2,
+        "Value": -13
+      },
+      {
+        "Key": 3,
+        "Value": -13
+      },
+      {
+        "Key": 4,
+        "Value": 0
+      },
+      {
+        "Key": 5,
+        "Value": 0
+      },
+      {
+        "Key": 6,
+        "Value": 0
+      },
+      {
+        "Key": 7,
+        "Value": -13
+      },
+      {
+        "Key": 8,
+        "Value": 0
+      },
+      {
+        "Key": 9,
+        "Value": -6
+      },
+      {
+        "Key": 10,
+        "Value": 0
+      },
+      {
+        "Key": 11,
+        "Value": -6
+      },
+      {
+        "Key": 12,
+        "Value": -6
+      }
+    ],
+    "ArcaneKnight": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 0
+      },
+      {
+        "Key": 2,
+        "Value": -13
+      },
+      {
+        "Key": 3,
+        "Value": -10
+      },
+      {
+        "Key": 4,
+        "Value": 0
+      },
+      {
+        "Key": 5,
+        "Value": -13
+      },
+      {
+        "Key": 6,
+        "Value": 16000
+      },
+      {
+        "Key": 7,
+        "Value": -6
+      },
+      {
+        "Key": 8,
+        "Value": 12000
+      },
+      {
+        "Key": 9,
+        "Value": -6
+      }
+    ],
+    "Astrologist": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 0
+      },
+      {
+        "Key": 2,
+        "Value": -13
+      },
+      {
+        "Key": 3,
+        "Value": 0
+      },
+      {
+        "Key": 4,
+        "Value": -13
+      },
+      {
+        "Key": 5,
+        "Value": 12000
+      },
+      {
+        "Key": 6,
+        "Value": -6
+      },
+      {
+        "Key": 7,
+        "Value": 12000
+      },
+      {
+        "Key": 8,
+        "Value": 12000
+      },
+      {
+        "Key": 9,
+        "Value": -6
+      }
+    ],
+    "Fighter": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 0
+      },
+      {
+        "Key": 2,
+        "Value": -13
+      },
+      {
+        "Key": 3,
+        "Value": 0
+      },
+      {
+        "Key": 4,
+        "Value": -6
+      },
+      {
+        "Key": 5,
+        "Value": -13
+      },
+      {
+        "Key": 6,
+        "Value": 0
+      },
+      {
+        "Key": 7,
+        "Value": -6
+      },
+      {
+        "Key": 8,
+        "Value": 0
+      },
+      {
+        "Key": 9,
+        "Value": 0
+      },
+      {
+        "Key": 10,
+        "Value": -6
+      }
+    ],
+    "Joker": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": -19
+      },
+      {
+        "Key": 2,
+        "Value": -13
+      },
+      {
+        "Key": 3,
+        "Value": -13
+      },
+      {
+        "Key": 4,
+        "Value": 16000
+      },
+      {
+        "Key": 5,
+        "Value": 9999
+      },
+      {
+        "Key": 6,
+        "Value": -6
+      },
+      {
+        "Key": 7,
+        "Value": -6
+      },
+      {
+        "Key": 8,
+        "Value": -6
+      }
+    ],
+    "Bard": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 0
+      },
+      {
+        "Key": 2,
+        "Value": -13
+      },
+      {
+        "Key": 3,
+        "Value": -13
+      },
+      {
+        "Key": 4,
+        "Value": 0
+      },
+      {
+        "Key": 5,
+        "Value": -6
+      },
+      {
+        "Key": 6,
+        "Value": -6
+      },
+      {
+        "Key": 7,
+        "Value": 12000
+      },
+      {
+        "Key": 8,
+        "Value": -6
+      },
+      {
+        "Key": 9,
+        "Value": 0
+      }
+    ],
+    "Shooter": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 0
+      },
+      {
+        "Key": 2,
+        "Value": -13
+      },
+      {
+        "Key": 3,
+        "Value": -13
+      },
+      {
+        "Key": 4,
+        "Value": -6
+      },
+      {
+        "Key": 5,
+        "Value": -6
+      },
+      {
+        "Key": 6,
+        "Value": 16000
+      }
+    ],
+    "AiGirl": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 0
+      },
+      {
+        "Key": 2,
+        "Value": 0
+      },
+      {
+        "Key": 3,
+        "Value": -13
+      },
+      {
+        "Key": 4,
+        "Value": -6
+      },
+      {
+        "Key": 5,
+        "Value": -6
+      },
+      {
+        "Key": 6,
+        "Value": 16000
+      },
+      {
+        "Key": 7,
+        "Value": -6
+      }
+    ],
+    "Captain": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 0
+      },
+      {
+        "Key": 2,
+        "Value": -13
+      },
+      {
+        "Key": 3,
+        "Value": 10000
+      },
+      {
+        "Key": 4,
+        "Value": -6
+      },
+      {
+        "Key": 5,
+        "Value": 12000
+      },
+      {
+        "Key": 6,
+        "Value": 0
+      },
+      {
+        "Key": 7,
+        "Value": 16000
+      }
+    ],
+    "YinYang": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 0
+      },
+      {
+        "Key": 2,
+        "Value": -13
+      },
+      {
+        "Key": 3,
+        "Value": 0
+      }
+    ],
+    "GunsExpert": [
+      {
+        "Key": 0,
+        "Value": 1
+      },
+      {
+        "Key": 1,
+        "Value": 0
+      },
+      {
+        "Key": 2,
+        "Value": -13
+      },
+      {
+        "Key": 3,
+        "Value": -19
+      }
+    ]
+  },
+  "currentSkinDatas": {},
+  "heroUnlock": {
+    "Knight": true,
+    "Ranger": true,
+    "Mage": true,
+    "Assassin": true,
+    "Alchemist": true,
+    "Engineer": true,
+    "Vampire": true,
+    "Paladin": true,
+    "Elves": true,
+    "Werewolf": true,
+    "Priest": true,
+    "Druid": true,
+    "Robot": true,
+    "Viking": true,
+    "Necromancer": true,
+    "Officer": true,
+    "Taoist": true,
+    "Transcendent": true,
+    "Envoy": true,
+    "Beheaded": true,
+    "Ninja": true,
+    "SpecialForces": true,
+    "Airbender": true,
+    "Warlock": true,
+    "Miner": true,
+    "TrapMaster": true,
+    "CostumePrince": true,
+    "Doctor": true,
+    "SwordMaster": true,
+    "Lancer": true,
+    "Warliege": true,
+    "ArcaneKnight": true,
+    "Astrologist": true,
+    "Fighter": true,
+    "Joker": true,
+    "Bard": true,
+    "Shooter": true,
+    "AiGirl": true,
+    "Captain": true,
+    "YinYang": true,
+    "GunsExpert": true
+  },
+  "heroLevel": {
+    "Knight": 10,
+    "Ranger": 10,
+    "Mage": 10,
+    "Assassin": 10,
+    "Alchemist": 10,
+    "Engineer": 10,
+    "Vampire": 10,
+    "Paladin": 10,
+    "Elves": 10,
+    "Werewolf": 10,
+    "Priest": 10,
+    "Druid": 10,
+    "Robot": 10,
+    "Viking": 10,
+    "Necromancer": 10,
+    "Officer": 10,
+    "Taoist": 10,
+    "Transcendent": 10,
+    "Envoy": 10,
+    "Beheaded": 10,
+    "Ninja": 10,
+    "SpecialForces": 10,
+    "Airbender": 10,
+    "Warlock": 10,
+    "Miner": 10,
+    "TrapMaster": 10,
+    "CostumePrince": 10,
+    "Doctor": 10,
+    "SwordMaster": 10,
+    "Lancer": 10,
+    "Warliege": 10,
+    "ArcaneKnight": 10,
+    "Astrologist": 10,
+    "Fighter": 10,
+    "Joker": 10,
+    "Bard": 10,
+    "Shooter": 10,
+    "AiGirl": 10,
+    "Captain": 10,
+    "YinYang": 10,
+    "GunsExpert": 10
+  },
+  "heroSkill": {
+    "Knight": 0,
+    "Ranger": 0,
+    "Mage": 0,
+    "Assassin": 0,
+    "Alchemist": 0,
+    "Engineer": 0,
+    "Vampire": 0,
+    "Paladin": 0,
+    "Elves": 0,
+    "Werewolf": 0,
+    "Priest": 0,
+    "Druid": 0,
+    "Robot": 0,
+    "Viking": 0,
+    "Necromancer": 0,
+    "Officer": 0,
+    "Taoist": 0,
+    "Transcendent": 0,
+    "Envoy": 0,
+    "Beheaded": 0,
+    "Ninja": 0,
+    "SpecialForces": 0,
+    "Airbender": 0,
+    "Warlock": 0,
+    "Miner": 0,
+    "TrapMaster": 0,
+    "CostumePrince": 0,
+    "Doctor": 0,
+    "SwordMaster": 0,
+    "Lancer": 0,
+    "Warliege": 0,
+    "ArcaneKnight": 0,
+    "Astrologist": 0,
+    "Fighter": 0,
+    "Joker": 0,
+    "Bard": 0,
+    "Shooter": 0,
+    "AiGirl": 0,
+    "Captain": 0,
+    "YinYang": 0,
+    "GunsExpert": 0
+  },
+  "heroSkillUnlock": {
+    "Knight": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "Ranger": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "Mage": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "Assassin": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "Alchemist": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "Engineer": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "Vampire": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "Paladin": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "Elves": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "Werewolf": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "Priest": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "Druid": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "Robot": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "Viking": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "Necromancer": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "Officer": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "Taoist": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "Transcendent": [
+      {
+        "Key": 0,
+        "Value": true
+      }
+    ],
+    "Envoy": [
+      {
+        "Key": 0,
+        "Value": true
+      }
+    ],
+    "Beheaded": [
+      {
+        "Key": 0,
+        "Value": true
+      }
+    ],
+    "Ninja": [
+      {
+        "Key": 0,
+        "Value": true
+      }
+    ],
+    "SpecialForces": [
+      {
+        "Key": 0,
+        "Value": true
+      }
+    ],
+    "Airbender": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "Warlock": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "Miner": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "TrapMaster": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "CostumePrince": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "Doctor": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      }
+    ],
+    "SwordMaster": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "Lancer": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "Warliege": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      },
+      {
+        "Key": 2,
+        "Value": false
+      }
+    ],
+    "ArcaneKnight": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      }
+    ],
+    "Astrologist": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      }
+    ],
+    "Fighter": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      }
+    ],
+    "Joker": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      }
+    ],
+    "Bard": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      }
+    ],
+    "Shooter": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      }
+    ],
+    "AiGirl": [
+      {
+        "Key": 0,
+        "Value": true
+      }
+    ],
+    "Captain": [
+      {
+        "Key": 0,
+        "Value": true
+      },
+      {
+        "Key": 1,
+        "Value": false
+      }
+    ],
+    "YinYang": [
+      {
+        "Key": 0,
+        "Value": true
+      }
+    ],
+    "GunsExpert": [
+      {
+        "Key": 0,
+        "Value": true
+      }
+    ]
+  },
+  "petUnlock": {
+    "Cat": false,
+    "Dog": false,
+    "Pig": false,
+    "Slime": false,
+    "Robot": false,
+    "Panda": false,
+    "Rabbit": false,
+    "CanPig": false,
+    "TapTap": false,
+    "Pet4399": false,
+    "Gugu": false,
+    "Owl": false,
+    "Seal": false,
+    "Bug": false,
+    "Bat": false,
+    "Hippo": false,
+    "Tengo": false,
+    "Hide": false,
+    "Pug": false,
+    "Corgi": false,
+    "Cat1": false,
+    "Cat2": false,
+    "Rabbit1": false,
+    "Pig1": false,
+    "LiangSir": false,
+    "Blagny": false,
+    "Tortoise": false,
+    "Serenade": false,
+    "Dog1": false,
+    "Cat3": false,
+    "Cat4": false,
+    "Dog2": false,
+    "Dog3": false,
+    "dragon": false,
+    "Cat5": false,
+    "Cat6": false,
+    "TenOff": false,
+    "RushDuck": false,
+    "SacaSaca": false,
+    "Cat7": false,
+    "Hammer": false,
+    "Zongzi": false,
+    "JiaoDirector": false,
+    "FeatureBug": false,
+    "CoinPig": false,
+    "FireCat": false,
+    "MiniSlime": false,
+    "ZongziBro": false,
+    "Mahhmot": false,
+    "Capybara": false,
+    "ShanghaiTower": false,
+    "TrainerRobot": false,
+    "FireSnowman": false,
+    "ChillyGo": false,
+    "Nian": false
+  },
+  "roomObjectLevel": {
+    "Chest": 0,
+    "Safe": 0,
+    "Book": 0,
+    "Planet": 0,
+    "CatFood": 0
+  },
+  "usedSecretKeys": [],
+  "promotions2RewardVersion": {},
+  "unlockRoomDecorate": [],
+  "certificates": [
+    {
+      "magicStone": "Green",
+      "passLevel": "Not",
+      "heroName": "Character0_name_skin0",
+      "weapons": [],
+      "complete_time": ""
+    },
+    {
+      "magicStone": "Orange",
+      "passLevel": "Not",
+      "heroName": "Character0_name_skin0",
+      "weapons": [],
+      "complete_time": ""
+    },
+    {
+      "magicStone": "Blue",
+      "passLevel": "Not",
+      "heroName": "Character0_name_skin0",
+      "weapons": [],
+      "complete_time": ""
+    },
+    {
+      "magicStone": "Purple",
+      "passLevel": "Not",
+      "heroName": "Character0_name_skin0",
+      "weapons": [],
+      "complete_time": ""
+    },
+    {
+      "magicStone": "Black",
+      "passLevel": "Not",
+      "heroName": "Character0_name_skin0",
+      "weapons": [],
+      "complete_time": ""
+    },
+    {
+      "magicStone": "Red",
+      "passLevel": "Not",
+      "heroName": "Character0_name_skin0",
+      "weapons": [],
+      "complete_time": ""
+    },
+    {
+      "magicStone": "Cyan",
+      "passLevel": "Not",
+      "heroName": "Character0_name_skin0",
+      "weapons": [],
+      "complete_time": ""
+    }
+  ],
+  "normalModePassCertificates": [],
+  "bossRushPassCertificate": null,
+  "ironTidePassCertificate": null,
+  "aramPassCertificate": null,
+  "currentRoomDecorate": "Common",
+  "itemData": {
+    "AppVersion": 0,
+    "plants": [
+      {
+        "plantName": "plant_mirror_plane_flower",
+        "state": 1,
+        "watered": false,
+        "fertilized": false
+      },
+      {
+        "plantName": "plant_gem_flower",
+        "state": 1,
+        "watered": false,
+        "fertilized": false
+      },
+      {
+        "plantName": "plant_eator",
+        "state": 1,
+        "watered": false,
+        "fertilized": false
+      },
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "sellerRefreshTime": 0,
+    "sellerWeaponRefreshTime": 0,
+    "cumulativeFishCount": 0,
+    "commodities": [
+      null,
+      null,
+      null
+    ],
+    "itemUnlock": [],
+    "forgeWeapons": [
+      "weapon_057",
+      "weapon_062",
+      ""
+    ],
+    "skinTrialEntries": [],
+    "mechInRoom": "",
+    "blueprints": {},
+    "seeds": {},
+    "materials": {},
+    "tokenTickets": {},
+    "restoreKeys": [],
+    "alreadyGetRealNameAward": false,
+    "BugFeatureRedeemRecords": {},
+    "SchoolRedeemRecords": {},
+    "SchoolRedeemRecords202508": {},
+    "DreamRedeemRecords": {},
+    "Christmas2024RedeemRecords": {},
+    "FireRedeemRecords": {},
+    "ActivityRedeemRecords": {},
+    "SelectRewardClaimRecords": {},
+    "jewelryData": {},
+    "jewelryBlueprints": [],
+    "jewelryPlayerData": [],
+    "mythicWeapons": [],
+    "lastBuyBeginnerPkgId": -1,
+    "lastRewardBeginnerPkgId": -1,
+    "lastBuyReturnPlayerPkgId": -1,
+    "lastRewardReturnPlayerPkgId": -1,
+    "UnlockNewPackageTime": 0,
+    "specialTickets": {},
+    "hopperEnteredModes": [],
+    "fishChipConfigId": "",
+    "seasonStoreConfigId": "",
+    "bossrush_time": 0,
+    "eggMachineUniqueSeed": 0,
+    "eggMachineTimes": 0,
+    "eggMachineUseTimes": 0,
+    "eggMachineMode": 0,
+    "EggMachineGuaranteeRewardTimes": {},
+    "easterEggTempPets": [],
+    "fusionWeaponPathUnlock": [],
+    "todayTriggerActivityNpcCount": 0,
+    "fishChipStorePurchaseHistory": {},
+    "fishChipStorePurchaseHistoryIndexed": {},
+    "fishChipStoreAllPurchaseHistoryIndexed": {},
+    "lastFishChipStoreAllPurchaseHistoryIndexed": {},
+    "seasonStorePurchaseHistoryIndexed": {},
+    "seasonStoreAllPurchaseHistoryIndexed": {},
+    "lastSeasonStoreAllPurchaseHistoryIndexed": {},
+    "RandomSeedMap": {},
+    "got_bossrush_ticket": false,
+    "roomDecorateDic": {},
+    "roomDecorateCurSkinDic": {},
+    "hasGetAchievementCategoryRewardList": [],
+    "hasGetAchievementGroupRewardList": [],
+    "TodayStatueTimes": 0,
+    "hasGetRewardQuestionnaireList": [],
+    "hasGetH5YearlyStatsReward": false,
+    "todayPlantMaterialAdTimes": 0,
+    "todayTvRandomGiftAdTimes": 0,
+    "tvHasGuarantee": false,
+    "todayEggMachineAdTimes": 0,
+    "todayTvGoldAdTimes": 0,
+    "todaySkinTrialAdTimes": 0,
+    "adMallRandomWeaponFragmentName": "",
+    "adMallNextRefreshTime": 0,
+    "magicWellFishedTimes": 0,
+    "evolutionWeaponBossRatesIndex": 0,
+    "todayTalentRerollTimes": 0,
+    "meetWeaponCollectorCount": 0,
+    "windowHeroListShowDrawing": false,
+    "handStyleIndexList": []
+  },
+  "gems": 0,
+  "lastGems": 0,
+  "varGems": 0,
+  "cumulativeGems": 0,
+  "cumulativeConsumeGems": 0,
+  "rebornCard": false,
+  "hasTutorial": 0,
+  "firstInRoom": 0,
+  "roomLevel": 0,
+  "fishChip": 0,
+  "gameVersion": 0,
+  "lastPlayTime": 0,
+  "lastPlayTimeWithNetworkTime": 0,
+  "totalIndex": 0,
+  "totalGameTime": 0,
+  "generalSeed": 702956367,
+  "tutorialEndTime": "",
+  "checkUnlockWorkShopTime": "",
+  "fontSettingValue": 0,
+  "superHeroInHeroRoom": 0,
+  "isWaveMachineUpgraded": false,
+  "retiredKnightGotAdItemTime": "",
+  "lastTalentAdRefreshDay": 0
+}
