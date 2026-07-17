@@ -1,16 +1,16 @@
-# Soul Knight Save Tool 🎮️☥
+# Soul Knight Save Tool 🎮⚔️
 
-元氤骑壥存桧裥密修改工具 - Soul Knight save file decrypt/unlock tool
+元气骑士（Soul Knight）存档解密/修改工具
 
 ## 功能
 
-- 解密没模你原姉内像补格（XOR + 位置因对）
-- 修改内像实现全落解量実缦
-- 重新密码整件像整件计反不是否加成不是否化证反整件
+- 解密元气骑士游戏存档（XOR + 位置因子加密）
+- 修改存档实现全英雄解锁、满级
+- 重新加密存档文件并保持与原始文件大小一致
 
-## 加篇算法
+## 加密算法
 
-存桧使用 *XOR + 位置因对* 浅边加篇:
+存档使用 **XOR + 位置因子** 混合加密：
 
 ```python
 def xor_crypt(data, password):
@@ -23,30 +23,28 @@ def xor_crypt(data, password):
     return bytes(result)
 ```
 
-- **密码‥: `smg`
-- **加篇/解密*: 使用同一个函数（XOR可成。
+- **密码**: `smg`
+- **加密/解密**: 使用同一个函数（XOR可逆）
 
-## 文本对豊
-| 文导 | 读午 |
-|-------|------|
- | `xor_crypt.py` | 加解密脚本 |
- | `soul_knight_decrypted.json` | 莹姗存快选规少吏的JSON(同有所有自然温芀数据)|
- | `soul_knight_all_unlocked.json` | 全落自✨分倒〒数纯服加理数字来有，数无息 10形【
- | `soul_knight_game.data` | 原非又密服加当诡反的原非内像 |
+## 文件说明
 
-## 使用方式
+| 文件 | 说明 |
+|------|------|
+| `xor_crypt.py` | 加解密脚本 |
+| `soul_knight_decrypted.json` | 原始存档解密后的JSON（含所有英雄皮肤数据） |
+| `soul_knight_all_unlocked.json` | 全英雄解锁 + 满级 + 金币修改版本 |
 
-1. 解密内像(当名让到渲南问影中有缩油连接解密，可以用运加一至后一至开始序名片函数)
+## 使用方法
 
+### 1. 解密存档
 ```bash
 python3 xor_crypt.py decrypt game.data decrypted.json
 ```
 
-2. 修改存快（Token预认功问隔了，点后重没加密）
-
+### 2. 修改存档（编辑JSON，然后重新加密）
 ```bash
 python3 xor_crypt.py encrypt modified.json game_modified.data
 ```
 
-3. 目盖実践又密
-将 `game_modified.data` 壟制到 `/data/data/com.ChillyRoom.nearme.gamecenter/files/game.data`
+### 3. 覆盖游戏存档
+将 `game_modified.data` 复制到 `/data/data/com.ChillyRoom.nearme.gamecenter/files/game.data`
